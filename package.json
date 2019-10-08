@@ -13,5 +13,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nerissa Mae Sunit",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerissasunit2k/heroku_fanswitch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nerissasunit2k/heroku_fanswitch/issues"
+  },
+  "homepage": "https://github.com/nerissasunit2k/heroku_fanswitch#readme",
+  "engines": {
+    "node": "10.15"
+}
 }
