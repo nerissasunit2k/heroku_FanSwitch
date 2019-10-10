@@ -87,7 +87,7 @@
             e.preventDefault();
             var time = moment().format('MMMM Do YYYY, h:mm:ss a');
             var topic = 'Sunit/fan/status';
-            var payload = 'Turned On: ' + time
+            var payload = 'Turned 1: ' + time
             client.publish(topic, payload);
             $("#status").html("The fan is currently turned at 1");
         })
@@ -95,7 +95,7 @@
             e.preventDefault();
             var time = moment().format('MMMM Do YYYY, h:mm:ss a');
             var topic = 'Sunit/fan/status';
-            var payload = 'Turned On: ' + time
+            var payload = 'Turned 2: ' + time
             client.publish(topic, payload);
             $("#status").html("The fan is currently turned at 2");
         })
@@ -103,7 +103,7 @@
             e.preventDefault();
             var time = moment().format('MMMM Do YYYY, h:mm:ss a');
             var topic = 'Sunit/fan/status';
-            var payload = 'Turned On: ' + time
+            var payload = 'Turned 3: ' + time
             client.publish(topic, payload);
             $("#status").html("The fan is currently turned at 3");
         })
